@@ -74,9 +74,7 @@ func CheckServer(server string, nopts []nats.Option, check *Result, timeout time
 func CheckServerWithConnection(nc *nats.Conn, check *Result, timeout time.Duration, opts CheckServerOptions) error {
 	var err error
 
-	fmt.Println("Server Check-2")
-
-	bad
+	fmt.Println("Server Check-3")
 
 	if opts.Resolver == nil {
 		opts.Resolver = fetchVarz

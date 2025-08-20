@@ -76,6 +76,8 @@ func CheckServerWithConnection(nc *nats.Conn, check *Result, timeout time.Durati
 
 	fmt.Println("Server Check-2")
 
+	bad
+
 	if opts.Resolver == nil {
 		opts.Resolver = fetchVarz
 	}
